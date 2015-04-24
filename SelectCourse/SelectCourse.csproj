@@ -43,6 +43,26 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\ischool source\ischool@debug\components\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
+    <Reference Include="EMBA.DocumentValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\EMBA.DocumentValidator.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EMBA.Export, Version=2013.10.8.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\EMBA.Export.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EMBA.Import, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\EMBA.Import.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EMBA.Validator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\EMBA.Validator.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="FISCA">
       <HintPath>Library\FISCA.dll</HintPath>
       <Private>False</Private>
@@ -225,24 +245,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Import.Image.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ischool_EMBA\EMBA.DocumentValidator\EMBA.DocumentValidator.csproj">
-      <Project>{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}</Project>
-      <Name>EMBA.DocumentValidator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ischool_EMBA\EMBA.Export\EMBA.Export.csproj">
-      <Project>{47631CAA-4F81-4458-99A0-31B342803ECB}</Project>
-      <Name>EMBA.Export</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ischool_EMBA\EMBA.Import\EMBA.Import.csproj">
-      <Project>{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}</Project>
-      <Name>EMBA.Import</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ischool_EMBA\EMBA.Validator\EMBA.Validator.csproj">
-      <Project>{FEA37838-0B12-483A-8091-4B1A9A2C9378}</Project>
-      <Name>EMBA.Validator</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Import\Subject_Import.xml" />

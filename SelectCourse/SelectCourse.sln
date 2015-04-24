@@ -1,37 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectCourse", "SelectCourse.csproj", "{76D87CB3-61BC-45C2-8528-C4984E0F9F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMBA.Export", "..\..\ischool_EMBA\EMBA.Export\EMBA.Export.csproj", "{47631CAA-4F81-4458-99A0-31B342803ECB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMBA.Import", "..\..\ischool_EMBA\EMBA.Import\EMBA.Import.csproj", "{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMBA.Validator", "..\..\ischool_EMBA\EMBA.Validator\EMBA.Validator.csproj", "{FEA37838-0B12-483A-8091-4B1A9A2C9378}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMBA.DocumentValidator", "..\..\ischool_EMBA\EMBA.DocumentValidator\EMBA.DocumentValidator.csproj", "{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}"
-EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfserver:8080/tfs/tfs2008
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = SelectCourse.csproj
-		SccLocalPath1 = .
-		SccProjectUniqueName2 = ..\\..\\ischool_EMBA\\EMBA.Export\\EMBA.Export.csproj
-		SccProjectName2 = ../../ischool_EMBA/EMBA.Export
-		SccLocalPath2 = ..\\..\\ischool_EMBA\\EMBA.Export
-		SccProjectUniqueName3 = ..\\..\\ischool_EMBA\\EMBA.Import\\EMBA.Import.csproj
-		SccProjectName3 = ../../ischool_EMBA/EMBA.Import
-		SccLocalPath3 = ..\\..\\ischool_EMBA\\EMBA.Import
-		SccProjectUniqueName4 = ..\\..\\ischool_EMBA\\EMBA.Validator\\EMBA.Validator.csproj
-		SccProjectName4 = ../../ischool_EMBA/EMBA.Validator
-		SccLocalPath4 = ..\\..\\ischool_EMBA\\EMBA.Validator
-		SccProjectUniqueName5 = ..\\..\\ischool_EMBA\\EMBA.DocumentValidator\\EMBA.DocumentValidator.csproj
-		SccProjectName5 = ../../ischool_EMBA/EMBA.DocumentValidator
-		SccLocalPath5 = ..\\..\\ischool_EMBA\\EMBA.DocumentValidator
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -41,22 +15,6 @@ Global
 		{76D87CB3-61BC-45C2-8528-C4984E0F9F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D87CB3-61BC-45C2-8528-C4984E0F9F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D87CB3-61BC-45C2-8528-C4984E0F9F6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47631CAA-4F81-4458-99A0-31B342803ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47631CAA-4F81-4458-99A0-31B342803ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47631CAA-4F81-4458-99A0-31B342803ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47631CAA-4F81-4458-99A0-31B342803ECB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEA37838-0B12-483A-8091-4B1A9A2C9378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEA37838-0B12-483A-8091-4B1A9A2C9378}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEA37838-0B12-483A-8091-4B1A9A2C9378}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEA37838-0B12-483A-8091-4B1A9A2C9378}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
